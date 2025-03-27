@@ -30,7 +30,7 @@ const Login = () => {
         <form onSubmit={handleSubmit}>
           <input className="form-control mb-3" type="text" name="username" placeholder="Username" onChange={handleChange} required />
           <input className="form-control mb-3" type="password" name="password" placeholder="Password" onChange={handleChange} required />
-          <button className="btn btn-primary w-100" type="submit">Login</button>
+          <button className="btn btn-info w-100" type="submit">Login</button>
         </form>
       </div>
     </div>
